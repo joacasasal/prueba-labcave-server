@@ -1,0 +1,26 @@
+{
+    "env": {
+        "node": true,
+        "es6": true
+    },
+    "extends": "eslint:recommended",
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "rules": {
+        "no-unused-vars": "warn",
+        "max-line-length": [true, 340],
+        "no-shadowed-variable": true,
+        "no-string-literal": false,
+        "no-trailing-whitespace": true,
+        "no-unused-expression": true,
+        "no-use-before-declare": true,
+        "semicolon": [true, "always"],
+        "quotes": [1, "single", { "avoidEscape": true }]
+    }
+}
