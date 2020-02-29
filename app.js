@@ -12,4 +12,7 @@ app.get('/', (req, res) => {
   res.send('connected to ' + port);
 });
 
+var routes = require('./api/routes/time.routes');
+routes(app);
+
 module.exports = app;
