@@ -6,4 +6,5 @@ nodemon index.js
 
 ###### Estructura proyecto:
 api/controllers -> contiene la logica de los metodos de las apis.
+
 api/routes      -> contiene los metodos de las apis.
